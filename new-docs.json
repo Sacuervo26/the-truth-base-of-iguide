@@ -1,0 +1,126 @@
+[
+  {
+    "id": 56,
+    "slug": "alignment-orientation-scans",
+    "shelf": "Draft Software & Basics",
+    "book": "Scan Setup",
+    "title": "Alignment and Orientation of Scans",
+    "source": "Alignment_and_Orientation_of_Scans.pdf",
+    "md_path": "bookstack-export/truth-base-export/02-software-basics/alignment-orientation-scans.md",
+    "images": [
+      "img/alignment-orientation-scans/Figure 1 - Aligning Data.png",
+      "img/alignment-orientation-scans/Figure 2 - Unaligned Data.png",
+      "img/alignment-orientation-scans/Figure 3 - Aligned Data.png",
+      "img/alignment-orientation-scans/Figure 6 - Double Lines.png",
+      "img/alignment-orientation-scans/Figure 7 - Mirror Lines.jpeg"
+    ],
+    "figure_count": 5,
+    "text_length": 2931
+  },
+  {
+    "id": 57,
+    "slug": "finishing-touches-inspect-area",
+    "shelf": "Finishing Touches",
+    "book": "Finishing Touches",
+    "title": "Finishing Touches — Inspect Area",
+    "source": "Finishing_Touches-_Inspect_Area.pdf",
+    "md_path": "bookstack-export/truth-base-export/15-finishing-touches/finishing-touches-inspect-area.md",
+    "images": [
+      "img/finishing-touches-inspect-area/Figure 1 - Inspect Area Button (2).png",
+      "img/finishing-touches-inspect-area/Figure 1 - Inspect Area Button (3).png",
+      "img/finishing-touches-inspect-area/Figure 1 - Inspect Area Button.jpeg",
+      "img/finishing-touches-inspect-area/Figure 2 - Perimeter Wall Routing Through a Garage.png",
+      "img/finishing-touches-inspect-area/Figure 3 - Viewports (Bounding Box).png",
+      "img/finishing-touches-inspect-area/Figure 4 - Included Spaces (Highlighted in Yellow).png",
+      "img/finishing-touches-inspect-area/Figure 5 - Excluded Space (Highlighted in Blue).png"
+    ],
+    "figure_count": 7,
+    "text_length": 3185
+  },
+  {
+    "id": 58,
+    "slug": "finishing-touches-verify",
+    "shelf": "Finishing Touches",
+    "book": "Finishing Touches",
+    "title": "Finishing Touches — Verify",
+    "source": "Finishing_Touches_-_Verify.pdf",
+    "md_path": "bookstack-export/truth-base-export/15-finishing-touches/finishing-touches-verify.md",
+    "images": [
+      "img/finishing-touches-verify/Figure 1 - Verify Button (2).png",
+      "img/finishing-touches-verify/Figure 1 - Verify Button.jpeg"
+    ],
+    "figure_count": 2,
+    "text_length": 9310
+  },
+  {
+    "id": 59,
+    "slug": "finishing-touches-exporting",
+    "shelf": "Finishing Touches",
+    "book": "Finishing Touches",
+    "title": "Finishing Touches — Exporting",
+    "source": "Finishing_Touches-_Exporting.pdf",
+    "md_path": "bookstack-export/truth-base-export/15-finishing-touches/finishing-touches-exporting.md",
+    "images": [
+      "img/finishing-touches-exporting/Figure 1 - Exporting File (2).png",
+      "img/finishing-touches-exporting/Figure 1 - Exporting File (3).png",
+      "img/finishing-touches-exporting/Figure 1 - Exporting File.jpeg"
+    ],
+    "figure_count": 3,
+    "text_length": 980
+  },
+  {
+    "id": 60,
+    "slug": "void-spaces",
+    "shelf": "Area Classification",
+    "book": "Special Spaces",
+    "title": "Void Spaces",
+    "source": "Void_Spaces.pdf",
+    "md_path": "bookstack-export/truth-base-export/08-area-classification/void-spaces.md",
+    "images": [
+      "img/void-spaces/Figure 1 - Void Spaces.jpeg",
+      "img/void-spaces/Figure 2 - Structural Object.jpeg",
+      "img/void-spaces/Figure 3 - Void Area selection.png",
+      "img/void-spaces/Figure 4 - Excluded Void.jpeg"
+    ],
+    "figure_count": 4,
+    "text_length": 1978
+  },
+  {
+    "id": 61,
+    "slug": "unnecessary-invalid-update-requests",
+    "shelf": "Updates & Corrections",
+    "book": "Invalid Requests",
+    "title": "Unnecessary or Invalid Update Requests",
+    "source": "Unnecessary or Invalid Update Requests.pdf",
+    "md_path": "bookstack-export/truth-base-export/14-updates/unnecessary-invalid-update-requests.md",
+    "images": [],
+    "figure_count": 0,
+    "text_length": 0
+  },
+  {
+    "id": 62,
+    "slug": "l3-missing-space-outside-boundary",
+    "shelf": "Errors — Level 3",
+    "book": "Missing Spaces",
+    "title": "L3: Missing Draftable Space Outside Boundary",
+    "source": "ERC980_1.PDF",
+    "md_path": "bookstack-export/truth-base-export/13-errors-L3/l3-missing-space-outside-boundary.md",
+    "images": [
+      "img/l3-missing-space-outside-boundary/Figure 1 - Missing Storage Shed (Left Undrafted).jpeg",
+      "img/l3-missing-space-outside-boundary/Figure 10 - QA Can Confirm Further That This Space Should be Drafted (Exaggerated Example).png",
+      "img/l3-missing-space-outside-boundary/Figure 11 - Missing a Draftable Space Outside the Main Boundary of the Home.png",
+      "img/l3-missing-space-outside-boundary/Figure 12 - Added the Draftable Space Outside the Main Boundary of the Home.png",
+      "img/l3-missing-space-outside-boundary/Figure 2 - Storage Shed Added and New Building Created.jpeg",
+      "img/l3-missing-space-outside-boundary/Figure 3 - Missing a Detached Building (1) (2).png",
+      "img/l3-missing-space-outside-boundary/Figure 3 - Missing a Detached Building (1).png",
+      "img/l3-missing-space-outside-boundary/Figure 4 - Missing a Detached Building (2).jpeg",
+      "img/l3-missing-space-outside-boundary/Figure 5 - A Space With no Scan Taken Within it (Exaggerated Example).jpeg",
+      "img/l3-missing-space-outside-boundary/Figure 6 - The Space Was Omitted by the Drafter (Exaggerated Example).png",
+      "img/l3-missing-space-outside-boundary/Figure 7 - Clear Corner Visual and Corresponding Laser Data (Exaggerated Example).jpeg",
+      "img/l3-missing-space-outside-boundary/Figure 8 - QA Determined There’s Enough Data to Draft the Space (Exaggerated Example).png",
+      "img/l3-missing-space-outside-boundary/Figure 9 - Clear Corner Visual and Corresponding Laser Data (Exaggerated Example).jpeg"
+    ],
+    "figure_count": 13,
+    "text_length": 3353
+  }
+]
