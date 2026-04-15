@@ -3,12 +3,14 @@
   "cleanUrls": true,
   "trailingSlash": false,
   "rewrites": [
-    { "source": "/home", "destination": "/index.html" }
+    { "source": "/",       "destination": "/search.html" },
+    { "source": "/home",   "destination": "/search.html" },
+    { "source": "/search", "destination": "/search.html" }
   ],
   "redirects": [
-    { "source": "/doc/:id",       "destination": "/search#/doc/:id" },
-    { "source": "/shelf/:name",   "destination": "/search#/shelf/:name" },
-    { "source": "/q/:term",       "destination": "/search#/q/:term" }
+    { "source": "/doc/:id",     "destination": "/#/doc/:id" },
+    { "source": "/shelf/:name", "destination": "/#/shelf/:name" },
+    { "source": "/q/:term",     "destination": "/#/q/:term" }
   ],
   "headers": [
     {

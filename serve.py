@@ -27,9 +27,7 @@ class Handler(http.server.SimpleHTTPRequestHandler):
     def do_GET(self):
         path = self.path.split('?', 1)[0].split('#', 1)[0]
         # Pretty routes → map to the static HTML, preserve any hash fragment
-        if path in ('/', '/home', '/home/'):
-            self.path = '/index.html'
-        elif path in ('/search', '/search/'):
+        if path in ('/', '/search', '/search/', '/home', '/home/'):
             self.path = '/search.html'
         elif path.startswith('/doc/') or path.startswith('/shelf/') or path.startswith('/q/'):
             # Let the search SPA handle the fragment; convert path into hash
