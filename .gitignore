@@ -1,0 +1,12 @@
+# OS / editor
+Thumbs.db
+.DS_Store
+*.swp
+*~
+
+# Local assistant config (not needed in git)
+.claude/
+
+# Build / runtime
+node_modules/
+*.log
