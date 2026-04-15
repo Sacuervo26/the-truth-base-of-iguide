@@ -314,6 +314,17 @@ const DOC_IMAGES = {
     'img/Example 1 Misaligned data submission.png',
     'img/Example 2 Misaligned data submission.png',
   ],
+  4: [
+    'img/wall-line-types/Exterior Wall Type.png',
+    'img/wall-line-types/Interior Wall Type.png',
+    'img/wall-line-types/Invisible Divider Line Type.png',
+    'img/wall-line-types/Half Wall Type.png',
+    'img/wall-line-types/Railing Wall Type.png',
+    'img/wall-line-types/Visible Divider Line Type.png',
+    'img/wall-line-types/Structures Line Type.png',
+    'img/wall-line-types/Object Line Type.png',
+    'img/wall-line-types/Cosmetic Wall Type.png',
+  ],
   3: [
     'img/drafting-software/Figure 1 - Drafting Software.jpeg',
     'img/drafting-software/Figure 2 - Project Explorer.png',
@@ -357,9 +368,13 @@ function applyDocImages(container, docId){
   for (const path of imgs) byCap.set(_normCap(_filenameWithoutExt(path)), path);
   const used = new Set();
 
-  // Walk figure/example anchors in reading order
-  const anchors = Array.from(container.querySelectorAll('h3,h4,.figure'))
-    .filter(el => /^\s*(figure|fig\.?|example)\s*[#]?\s*\d/i.test(el.textContent));
+  // Walk anchors in reading order. An anchor qualifies if it either looks like
+  // a figure/example caption OR its normalised text matches an image filename.
+  const anchors = Array.from(container.querySelectorAll('h3,h4,.figure')).filter(el => {
+    const t = el.textContent;
+    if (/^\s*(figure|fig\.?|example)\s*[#]?\s*\d/i.test(t)) return true;
+    return byCap.has(_normCap(t));
+  });
   for (const anchor of anchors){
     const key = _normCap(anchor.textContent);
     const src = byCap.get(key);
